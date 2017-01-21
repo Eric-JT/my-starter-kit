@@ -1,0 +1,15 @@
+main
+  article
+    section
+      h2 Description
+      p.
+        A #[em simple kit] to get you started.
+        Don't worry about a damn thing,
+        let #[a(href="http://gulpjs.com/") Gulp] take care
+        of the build process.
+
+    section
+      h2 Tools Included
+      ul
+        each link, tool in tools
+          li: a(href=link)= tool.toUpperCase()
