@@ -63,14 +63,21 @@ GULP.task("browser-sync",["sass", "eslint", "babel", "pug"], function() {
 });
 
 /*
+*  Copy img folder into _site
+*/
+GULP.task("cp-img", function() {
+  return GULP.src("2-assets/img/**")
+  .pipe(GULP.dest("_site/assets/img"));
+});
+
+/*
 * Watch folders for changes
 */
 GULP.task("watch", function() {
   GULP.watch("2-assets/js/**", ["eslint", "babel"]);
   GULP.watch("2-assets/css/**", ["sass"]);
   GULP.watch("index.pug", ["pug"]);
-  GULP.watch("1-includes/*", ["pug"]);
-  GULP.watch("1-includes/*/**", ["pug"]);
+  GULP.watch("1-includes/**", ["pug"]);
 });
 
-GULP.task("default", ["browser-sync", "watch"]);
+GULP.task("default", ["browser-sync", "watch", "cp-img"]);
