@@ -1,6 +1,6 @@
 main
   article
-    section
+    section.description
       h2 Description
       p.
         A #[em simple kit] to get you started.
@@ -8,8 +8,11 @@ main
         let #[a(href="http://gulpjs.com/") Gulp] take care
         of the build process.
 
-    section
+    section.tools.sidebar
       h2 Tools Included
       ul
         each link, tool in tools
           li: a(href=link)= tool.toUpperCase()
+
+
+    include 3-nav.pug

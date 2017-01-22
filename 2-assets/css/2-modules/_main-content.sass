@@ -1,2 +1,29 @@
-main
+article
+  display: flex
+  flex-direction: column
   background: hsla(238, 12%, 47%, 0.32)
+
+nav
+  order: 1
+
+.tools
+  order: 3
+
+.description
+  order: 2
+
+
+@media all and ( min-width: 720px )
+
+  article
+    flex-direction: row
+
+  .sidebar
+    flex: 0 0 180px
+
+  .description
+    flex: 1
+
+@media all and ( min-width: 960px )
+  .sidebar
+    flex: 0 0 240px
