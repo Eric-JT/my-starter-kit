@@ -1,9 +1,14 @@
-My starter kit - WORK IN PROGGRESS
+My starter kit
 =============================
 
 ## Description
 
 A simple kit to get you started. Don't worry about a damn thing, let [Gulp](http://gulpjs.com/) take care of the build process.
+
+All you have to do is delete my files and add your own.
+
+
+![Project Preview](preview.png)
 
 
 ## This project uses the following tools
@@ -21,7 +26,7 @@ A simple kit to get you started. Don't worry about a damn thing, let [Gulp](http
 To use this project, you'll need the following things installed on your machine.
 
 1. [NodeJS](http://nodejs.org) - use the installer.
-2. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+2. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp`
 
 ## Local Installation
 
