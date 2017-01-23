@@ -38,7 +38,7 @@ To use this project, you'll need the following things installed on your machine.
 
 **development mode**
 
-Delete the img and css folder, I only have it here to view the final product online.
+Delete the img, css folder, and index.html. I only have those files here to view the final product online.
 
 Just type gulp into the terminal of the root of your project. A browser will open and you can view your project while you work and watch the changes happen as you edit and save you files.
 
