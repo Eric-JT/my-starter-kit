@@ -7,6 +7,7 @@ A simple kit to get you started. Don't worry about a damn thing, let [Gulp](http
 
 All you have to do is delete my files and add your own.
 
+[View the site](https://eric-jt.github.io/my-starter-kit/)
 
 ![Project Preview](preview.png)
 
