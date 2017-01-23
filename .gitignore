@@ -2,3 +2,4 @@ npm-debu.log*
 node_modules
 *.tmp
 *~
+_site
