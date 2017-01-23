@@ -2,18 +2,35 @@ article
   display: flex
   flex-direction: column
   background: hsla(238, 12%, 47%, 0.32)
+  padding: 0 2em 0 2em
 
-nav
-  order: 1
+nav ul
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  order: -1
+  justify-content: center
+
+  li
+    padding: 10px
 
 .tools
   order: 3
+  text-align: center
 
 .description
   order: 2
 
 
-@media all and ( min-width: 720px )
+@media all and ( min-width: 700px )
+
+  nav ul
+    flex-direction: column
+    text-align: left
+
+    li
+      padding: 0
+      margin: 0
 
   article
     flex-direction: row
@@ -21,9 +38,8 @@ nav
   .sidebar
     flex: 0 0 180px
 
+  .tools
+    text-align: right
+
   .description
     flex: 1
-
-@media all and ( min-width: 960px )
-  .sidebar
-    flex: 0 0 240px
